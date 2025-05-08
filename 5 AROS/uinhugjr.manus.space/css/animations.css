@@ -1,0 +1,67 @@
+/* Animations CSS for 5 AROS Services LLC */
+
+.animation-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.animation {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.animation-small {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-icon:hover .animation-small {
+    transform: scale(1.2);
+}
+
+/* Floating animation for hero section */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .animation {
+        max-width: 120px;
+    }
+    
+    .animation-small {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .animation {
+        max-width: 100px;
+    }
+    
+    .animation-small {
+        width: 40px;
+        height: 40px;
+    }
+}

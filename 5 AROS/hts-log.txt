@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 17 Mar 2025 15:37:18 at https://uinhugjr.manus.space/#contact +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://uinhugjr.manus.space/#contact -O1 "C:\My Web Sites\5 AROS" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:37:36	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+15:37:36	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link primary/contact (from primary/primary)
+15:37:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/contact (from primary/primary)
+15:37:47	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/contact (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 29 seconds : 32 links scanned, 27 files written (29074162 bytes overall) [29023127 bytes received at 1000797 bytes/sec], 147326 bytes transferred using HTTP compression in 11 files, ratio 21%, 19.2 requests per connection
+(2 errors, 2 warnings, 0 messages)
